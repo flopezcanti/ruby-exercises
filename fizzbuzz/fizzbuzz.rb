@@ -42,7 +42,7 @@ end
   	end
 
   	if number % 15 == 0  
-		result + "FizzBuzz!"
+		result + "FizzBuzz!" # pongo operador + porque con el shovel << resulta que concatena el 3, el 5 y el 15.
 	end
   	
 	puts "#{result}"
