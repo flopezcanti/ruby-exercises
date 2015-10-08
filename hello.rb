@@ -67,6 +67,37 @@ name = gets.chomp
 IO.write('name.txt', name)
 
 
+def add(a, b)
+ 	puts a + b
+end
+
+add((5 * 5), (5 + 3)) #=> equals 33
+add((3 + 4) * 10, 8 - 4 / 2) #=> what will this give us? => equals 76
+
+
+puts "What do you want to eat? You can choose. Bacon Spinach or other" 
+
+def taste(food)
+	
+	if food == "bacon"
+		puts "Yummy! BACON!"
+	elsif food == "spinach"
+		puts "Urgh…"
+	else food == ""
+		puts "Can I have some bacon on the side?"
+	end
+
+end
+
+taste(gets.chomp)
+
+
+
+
+
+
+
+
 
 
 
